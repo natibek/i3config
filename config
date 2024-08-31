@@ -17,8 +17,9 @@ set $mod Mod4
 font pango:DejaVu Sans Mono 12
 
 # setup display correctly
-# xrandr --output DisplayPort-0 --auto --above eDP
-# xrandr --output HDMI-A-0 --auto --above eDP
+exec xrandr --output DisplayPort-0 --auto --above eDP
+exec xrandr --output HDMI-A-0 --auto --above eDP
+
 # low battery popup
 exec --no-startup-id i3-battery-popup -n -D -L 20 -l 10
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
