@@ -105,12 +105,14 @@ bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
 bindsym $mod+o split h
-
 # split in vertical orientation
 bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
+
+# suspend laptop
+# bindsym $mod+Shift+Ctrl+x systemctl suspend
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
