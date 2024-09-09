@@ -19,7 +19,7 @@ font pango:CaskaydiaCove Nerd Font Regular 12
 # font pango:DejaVu Sans Mono 12
 
 # setup display correctly
-exec --no-startup-id setup_monitors.sh
+exec --no-startup-id /home/nati/myTools/setup_monitors.sh
 
 # low battery popup
 exec --no-startup-id i3-battery-popup -n -D -L 20 -l 10
@@ -35,8 +35,9 @@ exec --no-startup-id dex --autostart --environment i3
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
 
-exec --no-startup-id xautolock -time 3 -locker "systemctl suspend" -detectsleep
-# exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+# exec --no-startup-id xautolock -time 3 -locker i3lock -detectsleep
+# exec --no-startup-id xautolock -time 3 -locker "systemctl suspend" -detectsleep
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
