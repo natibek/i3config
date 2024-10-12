@@ -70,6 +70,12 @@ tiling_drag modifier titlebar
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
+# custom shortcuts for apps
+bindsym $mod+Shift+m exec microsoft-edge
+bindsym $mod+Shift+f exec firefox
+bindsym $mod+Shift+s exec spotify
+
+
 # kill focused window
 bindsym $mod+Shift+q kill
 
