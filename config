@@ -75,6 +75,7 @@ bindsym $mod+Shift+m exec microsoft-edge
 bindsym $mod+Shift+f exec firefox
 bindsym $mod+Shift+s exec spotify
 bindsym $mod+Ctrl+l exec systemctl suspend
+bindsym $mod+Shift+o exec xdg-open ~
 
 
 # kill focused window
