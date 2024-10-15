@@ -76,6 +76,8 @@ bindsym $mod+Shift+f exec firefox
 bindsym $mod+Shift+s exec spotify
 bindsym $mod+Ctrl+l exec systemctl suspend
 bindsym $mod+Shift+o exec xdg-open ~
+bindsym $mod+Shift+p exec gnome-screenshot -i
+bindsym $mod+Ctrl+p exec gnome-screenshot -a
 
 
 # kill focused window
