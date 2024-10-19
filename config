@@ -72,7 +72,13 @@ bindsym $mod+Return exec i3-sensible-terminal
 
 # custom shortcuts for apps
 bindsym $mod+Shift+m exec microsoft-edge
+bindsym $mod+Shift+g exec microsoft-edge https://github.com/natibek
+bindsym $mod+Shift+i exec microsoft-edge https://linkedin.com/in/nati-bekele
+
 bindsym $mod+Shift+f exec firefox
+bindsym $mod+Shift+u exec firefox https://outlook.office.com
+bindsym $mod+Shift+c exec firefox https://canvas.uchicago.edu
+
 bindsym $mod+Shift+s exec spotify
 bindsym $mod+Ctrl+l exec systemctl suspend
 bindsym $mod+Shift+o exec xdg-open ~
@@ -189,7 +195,7 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # reload the configuration file
-bindsym $mod+Shift+c reload
+bindsym $mod+Ctrl+r reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
