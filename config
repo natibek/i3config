@@ -74,6 +74,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+m exec microsoft-edge
 bindsym $mod+Shift+g exec microsoft-edge https://github.com/natibek
 bindsym $mod+Shift+i exec microsoft-edge https://linkedin.com/in/nati-bekele
+bindsym $mod+Shift+y exec microsoft-edge https://youtube.com/
 
 bindsym $mod+Shift+f exec firefox
 bindsym $mod+Shift+u exec firefox https://outlook.office.com
@@ -83,7 +84,6 @@ bindsym $mod+Shift+s exec spotify
 bindsym $mod+Ctrl+l exec systemctl suspend
 bindsym $mod+Shift+o exec xdg-open ~
 bindsym $mod+Shift+p exec gnome-screenshot -i
-bindsym $mod+Ctrl+p exec gnome-screenshot -a
 
 
 # kill focused window
