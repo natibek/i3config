@@ -70,7 +70,7 @@ tiling_drag modifier titlebar
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
-# custom shortcuts for apps
+# custom shortcuts 
 bindsym $mod+Shift+m exec microsoft-edge
 bindsym $mod+Shift+g exec microsoft-edge https://github.com/natibek
 bindsym $mod+Shift+i exec microsoft-edge https://linkedin.com/in/nati-bekele
@@ -82,9 +82,12 @@ bindsym $mod+Shift+c exec firefox https://canvas.uchicago.edu
 
 bindsym $mod+Shift+s exec spotify
 bindsym $mod+Ctrl+l exec systemctl suspend
+bindsym $mod+Ctrl+Shift+p exec poweroff
+
 bindsym $mod+Shift+o exec xdg-open ~
 bindsym $mod+Shift+p exec gnome-screenshot -i
 
+exec microsoft-edge https://www.notion.so/TODO-f1b831f184f14b52ae99200fdfafb68c
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -130,9 +133,6 @@ bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
-
-# suspend laptop
-# bindsym $mod+Shift+Ctrl+x systemctl suspend
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
