@@ -75,6 +75,7 @@ bindsym $mod+Shift+m exec microsoft-edge
 bindsym $mod+Shift+g exec microsoft-edge https://github.com/natibek
 bindsym $mod+Shift+i exec microsoft-edge https://linkedin.com/in/nati-bekele
 bindsym $mod+Shift+y exec microsoft-edge https://youtube.com/
+bindsym $mod+Shift+n exec microsoft-edge https://www.notion.so/
 
 bindsym $mod+Shift+f exec firefox
 bindsym $mod+Shift+u exec firefox https://outlook.office.com
@@ -87,7 +88,7 @@ bindsym $mod+Ctrl+Shift+p exec poweroff
 bindsym $mod+Shift+o exec xdg-open ~
 bindsym $mod+Shift+p exec gnome-screenshot -i
 
-exec microsoft-edge https://www.notion.so/TODO-f1b831f184f14b52ae99200fdfafb68c
+exec --no-startup-id "i3-msg workspace 9; exec microsoft-edge https://www.notion.so/TODO-f1b831f184f14b52ae99200fdfafb68c"
 
 # kill focused window
 bindsym $mod+Shift+q kill
